@@ -1,0 +1,122 @@
+div#placeholder {
+    text-align: center;
+    border: 2px dashed black;
+    width: auto;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+div#placeholder.highlight {
+  border-color: red;
+}
+
+header {
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    margin: 0px;
+    float: right;
+}
+
+ul#list {
+    list-style: none;
+    padding-left: 0em;
+}
+
+ul#list li {
+    border:  1px solid #d6d6d6;
+    border-radius: 6px;
+    margin: 0.4em;
+    padding: 0.3em;
+}
+
+body {
+    background: #ebebeb;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+div#centerfield {
+    color: black;
+    border: 1px solid #808080;
+    width: 80%;
+    min-height: 30em;
+    min-width: 30em;
+    
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2.5em;
+    padding: 1%;
+
+    border-radius: 6px;
+}
+
+aside#explanation {
+    border:  1px solid #d6d6d6;
+    border-radius: 6px;
+    margin: 0.4em;
+    padding: 0.3em;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #808080;
+    text-align: center;
+}
+
+.resulttaken {
+    font-size: small;
+}
+
+.algoname {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.algoresult {
+    word-break: break-all;
+}
+
+.progresstext {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.browserad {
+    display: block;
+    margin: 1em;
+}
+
+#overlaytextbox h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#browserads {
+    text-align: center;
+}
+
+.browserad a img {
+    margin: 0.1em;
+    border: none;
+}
+.button {
+  display: inline-block;
+  padding: 5px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button:hover {
+  background: #ddd;
+}
+
+#files {
+  display: none;
+}

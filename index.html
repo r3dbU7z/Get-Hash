@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebApplication">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <title>Get Hash, hashing files in your browser</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+
+<body id="drop_zone">
+<div id="centerfield">
+	<header>
+        <h1>Get Hash</h1>
+    </header>
+        <article>
+            <ul id="list">
+                <li>
+                    <b>File selection</b>
+                    <div id="placeholder">
+                        <b>Drop</b> files here.</b>
+                    </div>
+                    <input type="file" id="files" name="file"/>
+                    <label class="button" for="files">Open File</label>
+                </li>
+            </ul>
+        </article>
+
+        <aside id="explanation">
+            <div id="crypto_sha256">
+            <span itemprop="description">SHA256</span>
+            </div>
+        </aside>
+        <aside id="explanation">
+            <div id="crypto_md5">
+            <span itemprop="description">MD5</span>
+            </div>
+        </aside>
+</div>
+    <footer>
+        Hash v0.3
+    </footer>
+<script src="./lib/core.js"></script>
+<script src="./lib/sha256.js"></script>
+<script src="./lib/md5.js"></script>
+<script src="./js/hash.js"></script>
+
+</body>
+</html>
